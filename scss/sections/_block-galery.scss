@@ -1,0 +1,36 @@
+.gallery__images{
+  transform:  translate(0px, 138px);
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  height: 38vw;
+  margin: 50px 215px;
+  width: 100%;
+  max-height: 721px;
+  min-height: 721px;
+  &__left{
+    padding-right: 5px;
+  }
+  &__right{
+    width: 50%;
+  }
+    &__img{
+      padding: 0 1px 5px 4px;
+      width: 36%;
+    }
+    }
+
+.gallery__title{
+  margin-bottom: 91px;
+  margin-top: 32px;
+
+}
+.gallery__button{
+  transform: translate(371%, -555%)
+}
+.gallery__svg{
+  transform: translate(330px, -190px);
+}
+

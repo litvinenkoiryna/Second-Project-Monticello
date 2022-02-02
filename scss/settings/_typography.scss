@@ -1,0 +1,101 @@
+.header{
+  &__navigation{
+    font-stretch: condensed;
+    font-family: $nav-font;
+    font-size: $button-nav-name-text;
+  }
+}
+
+.heading {
+  font-family: $button-title-font;
+  &__title {
+    font-size: $main-title;
+    color: $white-default-color;
+    font-weight: 900;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    font-optical-sizing: auto;
+  }
+  &__text{
+    font-size: $text-description;
+    color: $white-default-color;
+    line-height: 22px;
+    letter-spacing: 0.37em;
+
+  }
+}
+h2{
+  font-family: $button-title-font;
+  font-size: 44px;
+  line-height: $line-height-title2;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3{
+  font-family: $monsterrat-normal;
+  font-size: 22px;
+  line-height: $line-height-title3;
+}
+
+p{
+  font-family: $description-font;
+  font-size: 18px;
+  line-height:$line-height-text;
+}
+
+.project {
+  color: $grey-blue-text;
+
+  &__location {
+    font-family: $description-font;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: $line-height-location;
+    color: $button-city-contact-text;
+  }
+}
+
+.news__title{
+  color: $white-default-color;
+}
+.news__name{
+  font-weight: bold;
+  }
+.news__paragraph{
+  line-height: 25px;
+}
+
+.information{
+  font-family: $monsterrat-normal;
+  font-weight: $line-height-inform;
+  font-size: $text-description;
+  color: $button-city-contact-text;
+}
+
+.contacts__item{
+  line-height: 29px;
+}
+
+.submit__input{
+  font-family: $monsterrat-normal;
+  font-weight: $line-height-inform;
+  font-size: $text-description;
+  color: $button-city-contact-text;
+}
+
+.footer__text{
+  color: $white-default-color;
+  font-size: $button-nav-name-text;
+  font-family: $monsterrat-normal;
+  line-height: $line-height-button  ;
+}
+
+.date{
+  font-family: $monsterrat-normal;
+  color: $color-date-blue;
+  font-size: $button-nav-name-text;
+  line-height: $line-height-button;
+}
+

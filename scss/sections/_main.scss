@@ -1,0 +1,11 @@
+body {
+  margin: 0 auto;
+  min-width: $min-wight;
+  max-width: $max-wight;
+}
+
+hr{
+  color: $grey-blue-text;
+  width: 100px;
+  margin-top: 80px;
+}

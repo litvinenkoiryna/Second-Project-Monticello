@@ -1,0 +1,84 @@
+
+
+.project__main--what{
+  text-align: center;
+  margin-top: 30px;
+}
+
+  .project {
+    &__centre-title{
+      margin-top: 99px;
+    }
+
+    &__trade {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative;
+    }
+
+   &__description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    &__text{
+      margin-bottom: 34px;
+      margin-top: 17px;
+    }
+    &__location{
+      margin-top: 60px;
+    }
+  }
+
+
+
+.trade__image{
+    background-color: $color-blue;
+    width: 36.55%;
+    min-width: 585px;
+    transform: translate(1px, 87px);
+  }
+
+  .project__commerce {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+
+    &__deskription {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+  }
+
+.commerce__image {
+  background-color: $color-violet;
+  width: 36.55%;
+  min-width: 585px;
+  height: 470px;
+  transform: translate(535px, 281px);
+}
+
+  .trade__img {
+    transform: translate(213px, 59px);
+    }
+
+
+  .commerce__img {
+    transform: translate(-261px, 60px);
+  }
+
+  .project__description--trade {
+      max-width: 29.35%;
+      transform: translate(-215px, 239px);
+    }
+
+  .project__description--commerce {
+    width: 30%;
+    transform: translate(219px, 434px);
+  }
+

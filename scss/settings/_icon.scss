@@ -1,0 +1,32 @@
+.social{
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+  margin: 0 auto;
+  transform: translate(-2px, 9px);
+    //&:hover{
+    //filter: invert(1);
+    //}
+  }
+
+.icon:hover{
+  filter: blur(1px);
+ transform: scale(1.5);
+
+}
+
+i{
+  color: $white-default-color;
+}
+
+.fa-circle {
+  font-size: 9px;
+  margin-right: 17px;
+  transform: translate(1px , -1px);
+  &:hover {
+    background-color: $white-default-color;
+    border-radius: 50%;
+  }
+}
+
+

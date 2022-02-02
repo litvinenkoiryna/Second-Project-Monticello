@@ -1,0 +1,68 @@
+.news {
+  background-image: url("/img/Rectangle5.jpg");
+  height: 63vw;
+  margin-top: 400px;
+  max-height: 1035px;
+  min-height: 1035px;
+  transform: translate(0px, 81px);
+
+  &__line {
+    color: $white-default-color;
+    width: 100px;
+    transform: translate(0px, 132px);
+  }
+
+  &__title {
+    text-align: center;
+    margin-top: 162px;
+  }
+
+  &__carusel {
+    display: flex;
+    width: 100%;
+    transform: translate(14px, 89px);
+    min-width: 0;
+    }
+  &__text{
+    padding: 30px 20px 30px 20px;
+    width: 370px;
+  }
+  &__name{
+    margin-bottom: 10px;
+  }
+  &__paragraph{
+    margin-bottom: 42px;
+  }
+  &__photo{
+    border-radius: 50%;
+    float: left;
+    margin-right: 25px;
+  }
+}
+
+.carusel__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
+    background-color: $white-default-color;
+    margin-right: 25px;
+}
+
+.slick-slider{
+    padding: 0 218px 0 202px;
+  }
+
+ul.slick-dots{
+  transform: translate(-228px, 60px);
+  margin-right: 5px;
+}
+
+button.slick-prev.slick-arrow {
+  left: 105px;
+
+}
+button.slick-next.slick-arrow {
+  right: 152px;
+}
+
+
