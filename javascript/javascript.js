@@ -37,7 +37,25 @@ for (let anchor of anchors) {
         autoplay: true,
         autoplaySpeed: 4000,
         arrows: true,
-        dots: true
+        dots: true,
+        centerPadding: '30px',
+        responsive: [
+        {
+            breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 2,
+
+        }
+        },
+        {
+            breakpoint: 425,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1
+        }
+        }
+    ]
     });
 });
 

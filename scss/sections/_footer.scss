@@ -1,6 +1,13 @@
-footer{
+footer {
   background-image: url("/img/Rectangle16.jpg");
   height: 30vw;
+  background-repeat: no-repeat;
+  @media screen and (max-width: $tablet-max) {
+    height: 46vw;
+  }
+  @media screen and (max-width: $mobile-max){
+    height: 70vw;
+  }
 }
 
 .information{
@@ -8,12 +15,27 @@ footer{
   max-width: 770px;
   background-image: url("/img/Form.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   height: 450px;
-  transform: translate(415px, -446px);
+  transform: translate(415px, -451px);
   padding: 60px;
 
+  @media screen and (max-width: $desktop-min) {
+    width: 67%;
+    transform: translate(164px, -420px);
+    padding: 28px;
+  }
+  @media screen and (max-width: $tablet-max) {
+    width: 88%;
+    height: 387px;
+    transform: translate(36px, -415px);
+    padding: 16px;
+  }
+  @media screen and (max-width: $mobile-max){
+    width: 90%;
+    transform:translate(5px, -415px);
 
+  }
   &__line{
     transform: translate(0px, -81px);
     line-height: 84px;
@@ -31,16 +53,28 @@ li>i{
 .container{
   display: flex;
   transform: translate(7px, -41px);
+  @media screen and (max-width: $mobile-max){
+  transform: translate(7px, -85px);
+  flex-direction: column;
+}
+
 }
 
 .contacts{
   width: 50%;
   &__inform {
     margin-top: 20px;
-  }
+      }
   &__item{
     margin-bottom: 27px;
+    @media screen and (max-width: $mobile-max) {
+      margin-bottom: 17px;
     }
+    }
+
+  @media screen and (max-width: $mobile-max) {
+    margin-bottom: 12px;
+  }
   }
 
 .submit{
@@ -50,6 +84,9 @@ li>i{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    @media screen and (max-width: $mobile-max) {
+      transform: translate(7px, -29px);
+    }
   }
   &__input{
     width: 310px;
@@ -61,20 +98,31 @@ li>i{
     border-right: none;
     opacity: 0.5;
     &:hover{
-      opacity: 1;
+      opacity: 2;
     }
   }
 }
 
-.footer{
-  &__logo{
+.footer {
+  &__logo {
     transform: translate(415px, 206px);
-  }
-  &__text{
-    margin-top: 32px;
+    @media screen and (max-width: $tablet-max) {
+      transform: translate(48px, 139px);
     }
-  &__social{
+  }
+
+  &__text {
+    margin-top: 32px;
+  }
+
+  &__social {
     transform: translate(308px, 97px);
+    @media screen and (max-width: $tablet-max) {
+      transform: translate(251px, 31px);
+    }
+    @media screen and (max-width: $mobile-max) {
+      transform: translate(6px, 130px);
+    }
   }
 }
 

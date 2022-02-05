@@ -39,6 +39,12 @@
     width: 36.55%;
     min-width: 585px;
     transform: translate(1px, 87px);
+  @media screen and (max-width: $tablet-max) {
+    min-width: 250px;
+  }
+  @media screen and (max-width: $mobile-max) {
+    transform: translate(1px, -2px);
+     }
   }
 
   .project__commerce {
@@ -46,13 +52,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
+    margin-top: 53px;
 
     &__deskription {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: flex-end;
+
     }
+
   }
 
 .commerce__image {
@@ -60,25 +69,79 @@
   width: 36.55%;
   min-width: 585px;
   height: 470px;
-  transform: translate(535px, 281px);
+  transform: translate(535px, 228px);
+  @media screen and (max-width: $desktop-max) {
+    transform: translate(126px, 114px);
+  }
+  @media screen and (max-width: $tablet-max) {
+    min-width: 250px;
+    height: 382px;
+    transform:translate(43px, 101px)
+  }
+  @media screen and (max-width: $mobile-max) {
+    height: 214px;
+  }
 }
 
   .trade__img {
     transform: translate(213px, 59px);
+
+    @media screen and (max-width: $desktop-max) {
+      transform: translate(38px, 59px);
     }
-
-
+    @media screen and (max-width: $tablet-max) {
+      transform: translate(62px, 59px);
+      height: 30vw;
+    }
+  }
   .commerce__img {
     transform: translate(-261px, 60px);
+    @media screen and (max-width: $desktop-max) {
+      transform: translate(-97px, 60px)
+    }
+    @media screen and (max-width: $tablet-max) {
+      transform: translate(62px, 59px);
+      height: 30vw;
+    }
   }
 
   .project__description--trade {
-      max-width: 29.35%;
-      transform: translate(-215px, 239px);
+    max-width: 29.35%;
+    transform: translate(-215px, 239px);
+
+    @media screen and (max-width: $desktop-max) {
+      transform: translate(-48px, 95px);
     }
+    @media screen and (max-width: $tablet-max) {
+      max-width: 48.35%;
+      transform: translate(8px, 89px);
+    }
+    @media screen and (max-width: $mobile-max) {
+      max-width: 100%;
+    }
+    }
+
 
   .project__description--commerce {
     width: 30%;
-    transform: translate(219px, 434px);
+    transform: translate(219px, 381px);
+    @media screen and (max-width: $desktop-max) {
+      transform: translate(9px, 166px);
+    }
+    @media screen and (max-width: $tablet-max){
+    width: 46%;
+    transform: translate(9px, 75px);
+    }
+    @media screen and (max-width: $mobile-max) {
+      width: 100%;
+    }
+  }
+
+  .image{
+    @media screen and (max-width: $mobile-max) {
+      width: 70%;
+      margin-top: 72px;
+      margin-bottom: -231px;
+    }
   }
 

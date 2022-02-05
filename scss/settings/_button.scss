@@ -7,13 +7,20 @@
   line-height: $line-height-button;
   color:$button-city-contact-text;
   background-color: $white-default-color;
+  cursor: pointer;
   &:hover{
     background-color: $grey-blue-text;
     color: $white-default-color;
   }
 }
 
-.submit__button{
-  width: 140px ;
+.submit__button {
+  width: 140px;
   transform: translate(178px, 31px);
+  @media screen and (max-width: $tablet-max) {
+    transform: translate(168px, 31px);
+  }
+  @media screen and (max-width: $mobile-max) {
+    transform: translate(62%, -66%);
+  }
 }

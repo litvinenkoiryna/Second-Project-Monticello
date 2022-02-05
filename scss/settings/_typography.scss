@@ -15,6 +15,12 @@
     line-height: 98px;
     letter-spacing: 0.1em;
     font-optical-sizing: auto;
+    @media screen and (max-width: $tablet-max){
+      font-size: $h2-title ;
+    }
+    @media screen and (max-width: $mobile-max){
+      font-size: $h3-title;
+    }
   }
   &__text{
     font-size: $text-description;
@@ -26,17 +32,22 @@
 }
 h2{
   font-family: $button-title-font;
-  font-size: 44px;
+  font-size: $h2-title  ;
   line-height: $line-height-title2;
   font-weight: 700;
   text-align: center;
+
+@media screen and (max-width: $mobile-max){
+  font-size: $h3-title;
+}
 }
 
 h3{
   font-family: $monsterrat-normal;
-  font-size: 22px;
+  font-size: $h3-title;
   line-height: $line-height-title3;
 }
+
 
 p{
   font-family: $description-font;
@@ -59,10 +70,12 @@ p{
 
 .news__title{
   color: $white-default-color;
-}
+ }
+
 .news__name{
   font-weight: bold;
   }
+
 .news__paragraph{
   line-height: 25px;
 }
@@ -72,10 +85,18 @@ p{
   font-weight: $line-height-inform;
   font-size: $text-description;
   color: $button-city-contact-text;
+
+  @media screen and (max-width: $mobile-max){
+    font-size: 10px;
+
+  }
 }
 
 .contacts__item{
   line-height: 29px;
+  @media screen and (max-width: $mobile-max){
+    line-height: 15px;
+  }
 }
 
 .submit__input{
